@@ -1,0 +1,265 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JS Transport</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpmoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="Master.css">
+
+	<style type="text/css">
+		.carousel-inner img {
+     		width: 100%;
+      		height: 460px;
+ 		}
+
+ 		#zoom:hover{
+ 			-webkit-transform: scaleX(-1);
+  			transform: scaleX(-1);
+ 		}	
+
+ 		#link:hover{
+ 			font-size: 25px;
+ 		}
+		
+	
+*
+{
+padding:0;
+margin:0;
+}
+.nav li
+{
+float:left;
+width:100px;
+list-style:none;
+text-align:center;
+}
+a
+{
+text-decoration:none;
+color:black;
+display:block;
+}
+a:hover
+{
+
+color:white;
+}
+.nav li li
+{
+display:none;
+}
+.nav li:hover li
+{
+display:block;
+}
+
+	</style>
+</head>
+<body>
+
+	<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+					<img src="R (7).jpg" class="img-fluid mx-auto" height="70" width="170">
+				</div>
+
+				<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+					<form class="form-inline" style="margin-top: 35px; margin-left: 60px;">
+						<div class="input-group">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search....">
+							<button class="btn btn-success" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<nav class="navbar navbar-expand-md  navbar-dark sticky-top" style="background:#DC143C;">
+		<div class="container-fluid">
+			
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item active" style="border-bottom: 3px solid #77b300; font-size: 17px;"><a class="nav-link"  href="index.html" style="width: 110px; text-align: center;">HOME</a></li>
+					<li class="nav-item"><a class="nav-link"  href="aboutus.html" style="width: 160px; text-align: center;">ABOUT US</a></li>
+					<li class="nav-item"><a class="nav-link"  href="vehicletype.html" style="width: 160px; text-align: center;">VEHICAL TYPES</a></li>
+					<div class="nav">
+					<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Top Cities
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="mumbai.html">Mumbai</a>
+          <a class="dropdown-item" href="pune.html">Pune</a>
+		  <a class="dropdown-item" href="delhi.html">Delhi</a>
+          <a class="dropdown-item" href="benglore.html">Benglore</a>
+          <a class="dropdown-item" href="vadodara.html">vadodara</a>
+          <a class="dropdown-item" href="jaipur.html">Jaipur</a>
+          <a class="dropdown-item" href="chennai.html">Chennai</a>
+          <a class="dropdown-item" href="hydrabad.html">Hydrabad</a>
+          
+        </div>
+      </li>
+</div>
+					
+					<li class="nav-item"><a class="nav-link"  href="blog.html" style="width: 110px; text-align: center;">BLOG</a></li>
+					<li class="nav-item"><a class="nav-link"  href="privacypolicy.html" style="width: 110px; text-align: center;">POLICY</a></li>
+					<li class="nav-item"><a class="nav-link"  href="contactuus.html" style="width: 110px; text-align: center;">CONTACT US</a></li>
+					<li class="nav-item"><a class="nav-link"  href="booknow.html" style="width: 110px; text-align: center;">BOOK NOW</a></li>
+				</ul>
+			</div>	
+		</div>
+	</nav>
+
+
+	<section>
+		<div class="container">
+		<div id="demo" class="carousel slide" data-ride="carousel">
+		  	
+			<ul class="carousel-indicators">
+			    <li data-target="#demo" data-slide-to="0" class="active"></li>
+			    <li data-target="#demo" data-slide-to="1"></li>
+			    <li data-target="#demo" data-slide-to="2"></li>
+			   
+		  	</ul>
+		    
+		  	<div class="carousel-inner">
+
+		  		<div class="carousel-item active">
+			    	<a href="transportservices.html"><img class="u1" src="1_DwMJNbbk8_PP9kpk8HIxGw.png" alt="Healthy Eating" width="1100" height="460" ></a>
+			    	<div class="carousel-caption">
+    					<h1><a href="transportservices.html" style="color: #DC143C;">TRANSPORT SERVICES</a></h1>
+  					</div>
+			    </div>
+
+			    <div class="carousel-item">
+			      	<a href="whychooseus.html"><img class="u2" src="R (5).jpg" alt="Good Habits for a Healthy Life" width="1100" height="460"></a>
+			      	<div class="carousel-caption">
+    					<h1><a href="whychooseus.html" style="color: black;">WHY CHOOSE US?</a></h1>
+  					</div>
+			    </div>
+
+			    <div class="carousel-item">
+			      	<a href="faq.html"><img src="faq-banner.jpg" alt="Yoga for Healthy Living" width="1100" height="460"></a>
+			      	<div class="carousel-caption">
+    					<h1><a href="faq.html" style="color: black;">FAQ</a></h1>
+  					</div>
+			    </div>
+
+			    
+
+			    
+		  	</div>
+		    
+		  	<a class="carousel-control-prev" href="#demo" data-slide="prev">
+		    	<span class="carousel-control-prev-icon"></span>
+		  	</a>
+		  	<a class="carousel-control-next" href="#demo" data-slide="next">
+		    	<span class="carousel-control-next-icon"></span>
+		  	</a>
+		</div><br><br>
+
+		<div class="container">
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<h1 style="text-align: center; ">--JS Transportation Limited – India’s most reliable, dedicated and expert online Transport logistics services partner!--</h1>
+				</div><br>
+
+				<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+					<p style="font-size: 20px;  line-height: 28px; text-align: justify;">
+						JS Transportation and logistics is one of the foremost trucking companies, delivering the plethora of transport services to its esteemed consumers across India. We are the “best-in-class and cost-effective transporter” as defined by our customers and serving this industry for many years.</br></br>
+
+						We have set high standards in every facet of transportation, and strive to keep raising the bar. With our extensive industry knowledge and skilled team, you can completely focus on your core interests whereas leaving the tiring and complex moving process on us.
+						Time-critical? No worries – JS Transportation and logistics will help you!</br></br>
+
+						Our company is equipped with advanced equipment, modern tools, and expertise that enable us to help our consumers with crucial transportation and supply chain solutions. We ensure businesses that they will get excellent-quality, prompt, and secure transportation services irrespective of time-constraint, the heavy load issue, and any other related problem.</br></br>
+
+						Being the prime logistics services provider, we believe that people, technology, infrastructure and expertise all work together to help businesses to succeed and henceforth, we are offering the right blend of all these.</br></br>
+
+						We are a customer-centric firm and our every action is aimed to offer ease and comfort to them when it comes to booking a truck. Our online truck booking app has tremendously simplified the process of booking a truck. Whether you are looking for the companies of online truck booking Hyderabad or online truck booking Mumbai, JS Transportation and logistics would always be your right choice.</br></br>
+
+						<h3 >Online Truck Booking- A Smart Trucking Move</h3>
+						<p >Bored with traditional truck booking practices? Looking for a smart and quick way to book a truck? No worries! We have introduced an innovative and sophisticated way to book trucks. Our online truck booking app and online portal will allow you to book truck online anywhere, anytime.</br></br>
+
+						Online transport booking is just a click away! No matter what type and size of your load is, we have the necessary infrastructure, equipment and tools to accommodate your transportation needs. We are a full-service transport company backed by a wide range of tech-enabled trucks, and experienced & skilled team players to offer you best-in-class logistics and supply chain solutions.</br></br>
+
+						We offer you an instant pricing option while you try to book a truck using our mobile app. It will give you a better idea to manage your transportation budget.</p></br></br>
+
+						<h3 >A trucking company – always there for you!</h3>
+						<p >Our safe and affordable transport services will help businesses to drive business growth. We have years of experience in handling different types of transportation projects which enable us to help our businesses to focus on their core competencies and business operations. Our trucking company adds value to businesses at every stage, right from delivering advanced truck booking solutions to time-bound deliveries of goods anywhere across the nation.</br></br>
+
+						We are your trusted partner in your digital transformation journey. We have designed our app while keeping your truck booking needs in mind. No matter whether transportation involves short distance or long-distance, we are committed to delivering your goods in a hassle-free, safe and timely manner. How we can help you?</p></br></br>
+
+						<h3 >Rich industry experience</h3>
+						<p >We bring together years of diverse experience in the transport industry. As the best online transport booking company, we know what all it needs to bring you effective and affordable solutions to suit your every transport need.</p></br></br>
+
+						<h3 >Advanced technology</h3>
+						<p >Our adoption of technology, proven expertise and a huge network of fleet owners and drivers helps us to serve you anywhere, anytime across any part of the country.</p></br></br>
+
+						<h3 >On-time, every time</h3>
+						<p >We understand the value of time for you as well as for us. That is why we try to deliver your consignment on time, every time.</p></br></br>
+
+						<h3 >Competitive pricing</h3>
+						<p >By designing innovative transport solutions that are targeted to your unique business requirements, we have created a pricing strategy that works for everyone. Cost can become a major constraint while hiring our services, but with our most affordable prices, we won’t let this happen with our clients.</p></br></br>
+
+						<h3 >Reliability and safety</h3>
+						<p >We drive reliability and safety in transport operations through the effective implementation of advanced security tools and technologies. It further helps you to drive efficiency and achieve operational excellence.</p></br></br>
+
+						<h3 >Hassle-free services></h3>
+						<p >We provide hassle-free shipping and flawless logistics solutions for all your Transport needs, whether small or big, to all parts across the country.
+						Are you looking for a reliable and experienced transport company in India? Search online for “local transport near me” or “transport company near me”, we are sure that you will find JS Transportation and logistics in top results. So, call us now to book our services!</p>
+					</p>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="container">
+			<br><hr><br>
+
+			<div class="row">
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<a href="advantages.html#WeightLossSection1" style="color:  #77b300;"><img id="zoom" src="two-scaled.jpg" style="height:220px;" class="img-thumbnail img-fluid mx-auto d-block">
+					<h4 id="link" style="text-align: center; color: #77b300;">Our Advantages</h4></a>
+				</div>
+				</br>
+				<div class="col-12 col-sm-12 col-md-4 col-lg-4 col-xl-4">
+					<a href="howitswork.html#WeightLossSection2" style="color:  #77b300;"><img id="zoom" src="4BhmpGFq.jpeg" class="img-thumbnail img-fluid mx-auto d-block">
+					<h4 id="link" style="text-align: center; color:  #77b300;">How It's Works</h4></a>
+				</div>
+
+				
+			</div>
+		</div> <hr>	<br>
+
+		<div class="row">
+			<div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+				<h4 style="text-align: justify;"><b>"We deliver your cargo, whenever you need it and wherever you need it.
+					Logistics to connect your world.Solving logistics together.."</b></h4>
+				<h5 align="right">-JS Transportation limited..</h5>
+			</div>
+		</div>
+	</section><br>
+<footer class="bg-dark">
+		<div>
+			
+				<h4 style="text-align:center; color:white;">@ JS Transportation . All Copy Rights Reserved. </h4>
+		
+		</div>
+	</footer>
+
+
+</body>
+</html>

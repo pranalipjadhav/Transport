@@ -1,0 +1,431 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Vehicle Types</title>
+	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js" integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="Master.css">
+	<style type="text/css">
+	*
+{
+padding:0;
+margin:0;
+}
+
+	p,h3,h1,b,h2{
+	color:black;
+	}
+.nav li
+{
+float:left;
+width:100px;
+list-style:none;
+text-align:center;
+}
+a
+{
+text-decoration:none;
+color:black;
+display:block;
+}
+a:hover
+{
+
+ 
+}
+.nav li li
+{
+display:none;
+}
+.nav li:hover li
+{
+display:block;
+}</style>
+</head>
+<body>
+		<header>
+		<div class="container">
+			<div class="row">
+				<div class="col-5 col-sm-5 col-md-6 col-lg-6 col-xl-6">
+					<img src="90232_1571734459.jpg" class="img-fluid mx-auto" height="70" width="170">
+				</div>
+
+				<div class="col-7 col-sm-7 col-md-6 col-lg-6 col-xl-6">
+					<form class="form-inline" style="margin-top: 35px; margin-left: 60px;">
+						<div class="input-group">
+							<input class="form-control mr-sm-2" type="text" placeholder="Search....">
+							<button class="btn btn-success" type="submit">Submit</button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</header>
+
+
+	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+	    		<span class="navbar-toggler-icon"></span>
+	  		</button>
+	  		<div class="collapse navbar-collapse" id="collapsibleNavbar">
+				<ul class="navbar-nav mx-auto">
+				<li class="nav-item active" style=" font-size: 17px;"><a class="nav-link"  href="index.html" style="width: 110px; text-align: center;">HOME</a></li>
+					<li class="nav-item">
+						<a class="nav-link"  href="aboutus.html" style="width: 160px; text-align: center;">ABOUT US</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"  href="vehicletype.html" style="border-bottom: 3px solid #77b300; width: 160px; text-align: center;">VEHICAL TYPES</a>
+					</li>
+			<div class="nav">
+					<li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+          Top Cities
+        </a>
+        <div class="dropdown-menu">
+          <a class="dropdown-item" href="mumbai.html">Mumbai</a>
+          <a class="dropdown-item" href="pune.html">Pune</a>
+		  <a class="dropdown-item" href="delhi.html">Delhi</a>
+          <a class="dropdown-item" href="benglore.html">Benglore</a>
+          <a class="dropdown-item" href="vadodara.html">vadodara</a>
+          <a class="dropdown-item" href="jaipur.html">Jaipur</a>
+          <a class="dropdown-item" href="chennai.html">Chennai</a>
+          <a class="dropdown-item" href="hydrabad.html">Hydrabad</a>
+        </div>
+      </li>
+</div>
+					<li class="nav-item">
+						<a class="nav-link"  href="blog.html" style="width: 110px; text-align: center;">BLOG</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"  href="privacypolicy.html" style="width: 110px; text-align: center;">POLICY</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"  href="contactuus.html" style="width: 110px; text-align: center;">CONTACT US</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link"  href="booknow.html" style="width: 110px; text-align: center;">BOOK NOW</a>
+					</li>
+				</ul>
+			</div>	
+		</div>
+	</nav><br>
+
+<div class="clearfix"></div>
+<div class="clearfix"> </div>
+<div id="fea" class="features">
+<div class="container">
+</div>
+<br><br>
+<p><center><h2>Vehicle Dimensions (approx) and Max Load Capacity. ( Size differ as per Make Model of Manufacturer & Custom Modifications )</h2></center><br>
+<style>h1{color:#064b76;text-align:center}table{text-align:center;font-family:arial,sans-serif;border-collapse:collapse;width:100%}th{text-align:center;padding:8px;background-color:#064b76;border:1px solid #ddd;color:white}td{border:1px solid #ddd;text-align:center;padding:8px}tr:nth-child(even){background-color:#ddd}</style>
+<table border="0" cellpadding="0" cellspacing="0" rules="all" class="bodytext ml20" align="center">
+<col width="160" style="width:120pt;">
+<col width="167" style="width:125pt;">
+<col width="367" style="width:275pt;">
+<tr style="height:15.0pt;">
+<th class="excel2" width="160" style="height:15.0pt;width:255pt;">TRUCK TYPE </th>
+<th class="excel2" width="167" style="border-left:none;width:295pt;"> SIZE (FT) </th>
+<th class="excel2" width="367" style="border-left:none;width:255pt;">HOUSE HOLD CAPACITY</th>
+<th class="excel2" width="367" style="border-left:none;width:255pt;">MAX WEIGHT</th>
+</tr>
+<tr style="height:15.0pt;">
+<td class="excel2" style="height:15.0pt;border-top:none;">TATA ACE</td>
+<td class="excel2" style="border-top:none;border-left:none;">7 L x 4.8 W x 4.8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">1 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 850 Kgs</td>
+</tr>
+<tr style="height:15.0pt;  ">
+<td class="excel2" style="height:15.0pt;border-top:none;">ASHOK LEYLAND DOST</td>
+<td class="excel2" style="border-top:none;border-left:none;">7 L x 4.8 W x 4.8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">1 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 1 Ton</td>
+</tr>
+<tr style="height:15.0pt;">
+<td class="excel2" style="height:15.0pt;border-top:none;">MAHINDRA BOLERO PICK UP</td>
+<td class="excel2" style="border-top:none;border-left:none;">8 L x 4.8 W x 4.8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">1 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 1.5 Ton</td>
+</tr>
+<tr style="height:15.0pt;  ">
+<td class="excel2" style="height:15.0pt;border-top:none;">TATA 407</td>
+<td class="excel2" style="border-top:none;border-left:none;">9 L x 5.5 W x 5 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">1.5 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 2.5 Ton</td>
+</tr>
+<tr style="height:15.0pt;">
+<td class="excel2" style="height:15.0pt;border-top:none;">EICHER 14 FEET</td>
+<td class="excel2" style="border-top:none;border-left:none;">14 L x 6 W x 6.5 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">2 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 4 Ton</td>
+</tr>
+<tr style="height:15.0pt;  ">
+<td class="excel2" style="height:15.0pt;border-top:none;">EICHER 17 FEET</td>
+<td class="excel2" style="border-top:none;border-left:none;">17 L x 6 W x 7 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">2.5 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 5 Ton</td>
+</tr>
+<tr style="height:15.0pt; ">
+<td class="excel2" style="height:15.0pt;border-top:none;">EICHER 19 FEET</td>
+<td class="excel2" style="border-top:none;border-left:none;">19 L x 7 W x 7 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">2.5 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 7/8/9 Ton</td>
+</tr>
+</tr>
+<tr style="height:15.0pt;  ">
+<td class="excel2" style="height:15.0pt;border-top:none;">TATA 22 FEET</td>
+<td class="excel2" style="border-top:none;border-left:none;">22 L x 7.5 W x 7 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">3 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 10 Ton</td>
+</tr>
+<tr style="height:15.0pt; ">
+<td class="excel2" style="height:15.0pt;border-top:none;">TATA TRUCK (6 TYRE)</td>
+<td class="excel2" style="border-top:none;border-left:none;">17.5 L x 7 W x 7 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 9 Ton</td>
+</tr>
+<tr style="height:15.0pt;  ">
+<td class="excel2" style="height:15.0pt;border-top:none;">TAURUS 16 T (10 TYRE)</td>
+<td class="excel2" style="border-top:none;border-left:none;">21 L x 7.2 W x 7 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 16 Ton</td>
+</tr>
+<tr style="height:15.0pt;">
+<td class="excel2" style="height:15.0pt;border-top:none;">TAURUS 21 T (12 TYRE)</td>
+<td class="excel2" style="border-top:none;border-left:none;"> 24 L x 7.3 W x 7 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 21 Ton</td>
+</tr>
+<tr style="height:15.0pt;  ">
+<td class="excel2" style="height:15.0pt;border-top:none;">TAURUS 25 T (14 TYRE)</td>
+<td class="excel2" style="border-top:none;border-left:none;"> 28 L x 7.8 W x 7 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 25 Ton</td>
+</tr>
+<tr style="height:15.0pt;">
+<td class="excel2" style="height:15.0pt;border-top:none;">CONTAINER 20 FT</td>
+<td class="excel2" style="border-top:none;border-left:none;">20 L x 8 W x 8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">4 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 6.5 Ton</td>
+</tr>
+<tr style="height:15.0pt;  ">
+<td class="excel2" style="height:15.0pt;border-top:none;">CONTAINER 32 FT SXL</td>
+<td class="excel2" style="border-top:none;border-left:none;"> 32 L x 8 W x 8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;">5 BHK</td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 7 Ton</td>
+</tr>
+<tr style="height:15.0pt;">
+<td class="excel2" style="height:15.0pt;border-top:none;">CONTAINER 32 FT MXL</td>
+<td class="excel2" style="border-top:none;border-left:none;"> 32 L x 8 W x 8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 14 Ton</td>
+</tr>
+<tr style="height:15.0pt; ">
+<td class="excel2" style="height:15.0pt;border-top:none;">CONTAINER 32 FT SXL / MXL HQ</td>
+<td class="excel2" style="border-top:none;border-left:none;"> 32 L x 8 W x 10 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 7 / 14 Ton</td>
+</tr>
+<tr style="height:15.0pt; ">
+<td class="excel2" style="height:15.0pt;border-top:none;"> 20 FEET OPEN ALL SIDE (ODC) </td>
+<td class="excel2" style="border-top:none;border-left:none;">20 L x 8 W x 8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 7 Ton</td>
+</tr>
+<tr style="height:15.0pt; ">
+<td class="excel2" style="height:15.0pt;border-top:none;">28-32 FEET OPEN-TRAILOR JCB ODC </td>
+<td class="excel2" style="border-top:none;border-left:none;"> 28-32 L X 8 W x 8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 8 Ton</td>
+</tr>
+<tr style="height:15.0pt;">
+<td class="excel2" style="height:15.0pt;border-top:none;">32 FEET OPEN-TRAILOR ODC</td>
+<td class="excel2" style="border-top:none;border-left:none;"> 32 L X 8 W x 8 H</td>
+<td class="excel2" style="border-top:none;border-left:none;"></td>
+<td class="excel2" style="border-top:none;border-left:none;">Max Load 25 Ton</td>
+</tr>
+
+</table>
+</div>
+</div>
+<br><br>
+<div id="fea" class="features payment">
+<div class="container" id="type1">
+<div class="section-head text-center">
+<h3><span class="frist"> </span>Popular Truck Types<span class="second"> </span></h3>
+</div></br></br>
+<div class="col-md-12 payment-option">
+<style>
+.f1{
+display:flex !important;
+position:relative;
+}
+#type1
+{width:95% !important;
+}
+#border
+{border: 2px solid gray;
+width:400px !important;
+}
+img{
+width:150px !important;
+}
+#ddd;height: 298px !important;
+width: 19% !important;
+}
+@media only screen and (max-width: 991px) 
+{
+#border
+{
+width: 140% !important;
+}
+.f1{
+flex-direction:column !important;
+}
+.payment-option
+{
+display: inline-block !important;
+}
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px)  
+{
+.f1{
+flex-direction:column !important;
+}
+
+#type1
+{
+display:none;
+} 
+}
+</style>
+<div class="f1">
+<div class="col-md-2" id="border" style="width:200px;">
+<div class="center">
+<img src="tataace.jpg" loading="lazy" alt="Tata Ace - TruckGuru LLP" />
+</div>
+<div class="center">
+<h4 style="margin-top: 100px !important;"><b>TATA ACE</b></h4>
+<p>Max Load 850 Kgs</p>
+</div>
+</div>&nbsp &nbsp &nbsp &nbsp
+<div class="col-md-2" id="border" style="margin-right:0px;">
+<div class="center">
+<img src="eicher-19feet.jpg" loading="lazy" alt="Eicher Truck - TruckGuru LLP" />
+</div>
+<div class="center">
+<h4 style="margin-top: 40px !important;"><b>EICHER 19</b></h4>
+<p>Max Load 7 Ton</p>
+</div>
+</div>&nbsp &nbsp &nbsp &nbsp
+</div></br></br>
+<div class="f1">
+<div class="col-md-2" id="border" style="">
+<div class="center">
+<img src="taurus-21ton.jpg" loading="lazy" alt="Truck - TruckGuru LLP" />
+</div>
+<div class="center">
+<h4 style="margin-top: 68px !important;"><b>TATA TAURUS 21 T</b></h4>
+<p>Max Load 21 Ton</p>
+</div>
+</div>&nbsp &nbsp &nbsp &nbsp
+<div class="col-md-2" id="border" style="margin-right:10px;">
+<div class="center">
+<img src="container-32feet.jpg" loading="lazy" alt="Container Body Truck - TruckGuru LLP" />
+</div>
+<div class="center">
+<h4 style="margin-top: 60px !important;"><b>CONTAINER 32 FT SXL</b></h4>
+<p>Max Load 7 Ton</p>
+</div>
+</div>&nbsp &nbsp &nbsp &nbsp </div></br></br>
+<div class="f1">
+<div class="col-md-2" id="border" style="margin-right:10px;width:150px;">
+<div class="center">
+<img src="DSCN0141.jpg" loading="lazy" alt="Open Body Truck - TruckGuru LLP" />
+</div>
+<div class="center">
+<h4 style="margin-top: 65px !important;"><b>40 FEET OPEN-TRAILOR</b></h4>
+<p>Max Load 32 Ton</p>
+</div>
+</div>
+</div>
+</div></div>
+<div class="clearfix"> </div>
+<div id="fea" class="features">
+<div class="container">
+<div class="section-head">
+<h1 style="text-align: center;">
+<span style="font-family:verdana,geneva,sans-serif;"><span style="font-size:22px;"><strong style="font-family: verdana, geneva, sans-serif; color: rgb(6, 75, 118); font-size: 20px; ">Truck Types</strong></span></span></h1>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">JS Transportation and logistic services is the leading transporter in India, uses different types of trucks to suit different kinds of loads. We choose these trucks to do a specific type of job. Depending on their shapes and sizes, these trucks make the transportation of goods and freight easy. With the online truck booking facility available today, customers want to choose the truck of their choice depending on their needs such as type of freight and load.</span></span></span></p>
+<p>
+&nbsp;</p>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;"><strong>Importance of choosing the right type of truck</strong></span></span></span></p>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">Cost is a major concern while hiring a logistics company. People avoid using transport services because of their high price, but there is good news. Choosing the right type of truck to ship your goods is can help to decrease the per-unit cost of transportation. TruckGuru allows you to choose the right type of truck to reduce your overall moving cost.</span></span></span></p>
+<p>
+&nbsp;</p>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;"><strong>Closed Body Truck Or Container Truck</strong></span></span></span></p>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">This truck category consists of three types of container trucks or closed body trucks with varied lengths. This type of trucks is used to transport heavy loads.</span></span></span></p>
+<ul>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">32 Feet Single Axel Truck (7.5 Ton Capacity)</span></span></span></li>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">32 Feet Multi Axel Truck (16 Ton Capacity)</span></span></span></li>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">24 Feet Single Axel Truck (7.5 Ton Capacity)</span></span></span></li>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">24 Feet Multi Axel Truck (16 Ton Capacity)</span></span></span></li>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">20 Feet Single Axel Truck (7.5 Ton Capacity)</span></span></span></li>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">20 Feet Multi Axel Truck (16 Ton Capacity)</span></span></span></li>
+</ul>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;"><strong>Heavy Open Body Trucks</strong></span></span></span></p>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">This segment of a truck involves three types of trucks with different sizes which are suitable for the transportation of chemicals, food grains, raw materials and other heavy goods.</span></span></span></p>
+<ul>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">32-40 Feet 14 Wheeler Truck (21 Ton To 31 Ton Capacity)</span></span></span></li>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">20-32 Feet 10 Wheeler Truck (10 Ton To 25 Ton Capacity)</span></span></span></li>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">24-32 Feet 12 Wheeler Truck (16 Ton To 25 Ton Capacity)</span></span></span></li>
+</ul>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;"><strong>Light Open Body Truck</strong></span></span></span></p>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">This category has three types of trucks with different capacities and is used for bulky boxes containing light items. We use-</span></span></span></p>
+<ul>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">14 Feet Eicher (Capacity Of 3.5 - 4 Ton Capacity)</span></span></span></li>
+<li>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">17 Feet Eicher (Capacity Of 4.5 - 5 Ton Capacity</span></span></span></li>
+<li>
+<span  ><span style="font-size: 16px;"><span style="font-family: verdana, geneva, sans-serif;">19 Feet Eicher (Capacity Of 5.5 - 10 Ton Capacity)</span></span></span></li>
+</ul>
+<p>
+<span  ><span style="font-size:16px;"><span style="font-family:verdana,geneva,sans-serif;">We, at JS Transportation ans logistics services, are trying to resolve the problems that businesses and people experience in transporting their goods due to the lack of professional transporter in India. We help to minimize the cost of transportation by offering you a wide range of trucks. We enable you to move to any part of the country without any transportation problem.</span></span></span></p>
+</div>
+</div>
+</div>
+</div>
+<footer class="bg-dark">
+		<div>
+			
+				<h4 style="text-align:center;  ">@ JS Transportation . All Copy Rights Reserved. </h4>
+		
+		</div>
+	</footer>
+
+</body>
+</html>
